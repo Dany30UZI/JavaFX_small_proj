@@ -1,0 +1,78 @@
+.button {
+    -fx-background-color: #3559E0;
+    -fx-text-fill: white;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+#pinText {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+#bckButPan{
+    -fx-background-color: #A9A9A9;
+}
+
+#barPanel{
+    -fx-background-color: #A9A9A9;
+}
+
+#borderPanel{
+    -fx-background-color: black;
+}
+
+#mainPanel{
+    -fx-background-color: #A9A9A9;
+}
+
+#bkgPin{
+    -fx-background-color: black;
+}
+
+#vBoxPinLeft{
+    -fx-background-color: #A9A9A9;
+}
+
+#vBoxRightPin{
+    -fx-background-color: #A9A9A9;
+}
+
+#vBoxPanelRight{
+    -fx-background-color: #A9A9A9;
+}
+
+#inDataPanel{
+    -fx-background-color: #A9A9A9;
+
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+.text-area .content {
+    -fx-background-color: #A9A9A9;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+#balanta{
+    -fx-background-color: green;
+    -fx-text-color: black;
+    -fx-border-color: black;
+    -fx-border-width: 2;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+}
+
+
+

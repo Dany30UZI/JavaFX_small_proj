@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <BorderPane id="borderPanel" layoutX="190.0" layoutY="83.0" prefHeight="400.0" prefWidth="600.0" stylesheets="@app.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <HBox id="vBoxPanelRight" prefHeight="54.0" prefWidth="596.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#inapoiPanel" prefHeight="29.0" prefWidth="56.0" text="Back">
+                     <HBox.margin>
+                        <Insets left="20.0" top="20.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Text fill="#1168f5" strokeType="OUTSIDE" strokeWidth="0.0" text="Help">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="190.0" />
+                     </HBox.margin>
+                  </Text>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <BorderPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="3.0" top="2.0" />
+               </BorderPane.margin>
+            </HBox>
+         </top>
+         <right>
+            <TextArea editable="false" prefHeight="340.0" prefWidth="596.0" text="Navigation:&#10;&#10;Use the main menu on the left to access different sections of the app.&#10;Navigate through the app using the provided buttons .&#10;&#10;Dashboard:&#10;&#10;The dashboard provides an overview of key information.&#10;&#10;Key Features:&#10;&#10;Deposit: Seamlessly add funds to your account with a simple click. Your money, your way.&#10;&#10;Withdraw: Need cash? Withdraw money hassle-free. Your convenience is our priority.&#10;&#10;Account Information : Basic information about the user and change pin command.&#10;&#10;" BorderPane.alignment="CENTER">
+               <BorderPane.margin>
+                  <Insets bottom="2.0" left="2.0" right="3.0" />
+               </BorderPane.margin></TextArea>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
